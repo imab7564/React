@@ -3,12 +3,12 @@
 import Chai from "./chai" 
 
 function App() {
-
+  const username="Abhishek"
   return (
     <>
     {/* it is called fragment */}
     <Chai />
-    <h1>chai aur react with vite | Abhishek</h1>
+    <h1>chai aur react with vite | {username}</h1>
     </>
   )
 }
