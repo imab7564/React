@@ -5,10 +5,14 @@ import './App.css'
 
 function App() {
   
+  // useState is one of the most commonly used hooks in React.
+  //It allows React to re-render the component when the state changes.
+  //setCounter is a function that updates the state.
   let[counter,setCounter]=useState(15)
 
   const addValue= ()=>{
     //counter=counter+1
+    if(counter<=19)
     setCounter(counter+1)
   }
 
